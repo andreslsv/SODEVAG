@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>SODEVA</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Techie - v2.1.0
+  * Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+    <script type="text/javascript">
+    function closeModal(video_path){
+      var video = document.getElementById("modal-video");
+      var modal = document.getElementById("cont-modal-1");
+      var body = document.body;
+
+      modal.style.display = "none";
+      body.style.overflow = "inherit";
+      video.src = "" ;
+    }
+
+    function openModal(video_path){
+      var video = document.getElementById("modal-video");
+      var modal = document.getElementById("cont-modal-1");
+      var body = document.body;
+
+      modal.style.display = "flex";
+      body.style.overflow = "hidden";
+      video.src = video_path;
+    }
+  </script>
+
+
+  <section id="cont-modal-1" class="cont-modal-1" onclick="closeModal()">
+      <iframe id="modal-video" src="" width="960" height="540" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container-fluid">
+
+      <div class="row justify-content-center">
+        <div class="col-xl-9 d-flex align-items-center">
+          <!--<h1 class="logo mr-auto"><a href="index.html">Techie</a></h1>-->
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+
+          <nav class="nav-menu d-none d-lg-block">
+            <ul>
+              <li class="active"><a href="index.html">Inicio</a></li>
+              <li><a href="#about">¿Quienes somos?</a></li>
+              <li class="servicios">
+                <a href="#">Servicios</a>
+                <div class="sub-menu">
+                  <ul>
+                    <li><a href="#pasos">Pasos legalizar predio</a></li>
+                    <li><a href="#horarios">Horarios notaría</a></li>
+                  </ul>
+                </div>
+              </li>
+              <!--<li><a href="#portfolio">Historia</a></li>-->
+              <li><a href="#team">Blog</a></li>
+              <li><a href="#contact">Contacto</a></li>
+            </ul>
+          </nav><!-- .nav-menu -->
+
+          <a href="#" target="_blank" class="get-started-btn scrollto">Ingresar</a>
+          <a href="formulario.html" target="_blank" class="get-started-btn scrollto">Iniciar solicitud</a>
+        </div>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container-fluid" data-aos="fade-up">
+      <div class="row justify-content-center">
+        <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1>SODEVA</h1>
+          <h2>Conozca los pasos que debe seguir para legalizar su predio</h2>
+          <div><a href="#about" class="btn-get-started scrollto">Iniciar</a></div> 
+        </div>
+        <div style="background-color: #fff" class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img cont-form-hero" data-aos="zoom-in" data-aos-delay="150">
+          <!--<img src="assets/img/hero-img.png" class="img-fluid animated" alt="">-->
+          <form>
+              <h3>¿Quieres recibir más información?</h3>
+              <input type="text" name="" placeholder="Nombre completo">
+              <input type="text" name="" placeholder="Teléfono">
+              <input type="text" name="" placeholder="Correo">
+              <input type="text" name="" placeholder="Cédula">
+              <!--
+              <select name="cars">
+                <option hidden selected value="Tipo">Tipo de solicitud</option>
+                <option>Empresa</option>
+                <option>Independiente</option>
+              </select>
+            -->
+              <a href="#about" class="btn-get-started scrollto">Enviar</a>
+        </form>
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+
+
+
+
+        <!-- ======= Features Section ======= -->
+    <section id="pasos" class="features">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Pasos para legalizar su predio</h2>
+          <p>SOVEDA le ayuda a legalizar los predios ubicados en los barrios : Chapinero, Comuneros, La laguna, Motilones, Ospina Pérez, La florida, Buenos aires, Jose bernal , La Hermita, Camilo daza, Escalabrini, Aeropuerto, El porvenir, Virgilio barco, Las cumbres, Brisas del porvenir, El dorado, Alonsito, Toledo plata, Simon bolívar, Caño limón, El cerrito, San Gerardo, Cumbres del norte, Florida Blanca. Estos son las pasos a seguir:</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column align-items-lg-center">
+            <div class="icon-box mt-5 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-receipt"></i>
+              <h4>Consulte la información de su predial</h4>
+              <p>Antes de iniciar con la solicitud deberá contar con la información de su predio ( área del predio, dirección ) para consultar diríjase al siguiente enlace de la alcaldía de San José de Cúcuta y siga los pasos.</p>
+              <div class="cont-btns">
+                <a href="#" class="f-btn" onclick="openModal('https://player.vimeo.com/video/361502461')">Video de ejemplo</a>
+                <a href="http://oficinavirtualcucuta.co/Account/Login?ReturnUrl=%2FPredialPw%2FInfoContribuyente#" target="_blank" class="f-btn" style="margin-left: 10px;">Consultar predio</a>
+              </div>
+            </div>
+            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-cube-alt"></i>
+              <h4>Diligenciar solicitud</h4>
+              <p>Ingrese la información del solicitante e inicie el proceso de legalización de su predio de manera formal ante SODEVA haciendo clic en el siguiente botón.</p>
+              <div class="cont-btns">
+                <a href="#" class="f-btn">Iniciar solicitud</a>
+              </div>
+            </div>
+            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-images"></i>
+              <h4>Haga seguimiento a su solicitud</h4>
+              <p>Enviaremos los datos de acceso con las instrucciones a su correo electrónico para que continúe con los pasos de legalización.</p>
+              <div class="cont-btns">
+                <a href="#" class="f-btn" onclick="openModal('https://player.vimeo.com/video/469987276')">Video de ejemplo</a>
+              </div>
+            </div>
+          </div>
+          <div class="image col-lg-6 order-1 order-lg-2 " data-aos="zoom-in" data-aos-delay="100">
+            <img src="assets/img/video-pasos.jpg" alt="" class="img-fluid" onclick="openModal('https://player.vimeo.com/video/361502461')" style="cursor: pointer;">
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+
+        <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container">
+
+        <div class="row counters">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">11</span>
+            <p>Barrios</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">8422</span>
+            <p>Total predios</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">240</span>
+            <p>Lotes legalizados 2018 - 20</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">1993</span>
+            <p>Año de fundación</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+            <h3>¿Quienes somos?</h3>
+            <p>
+              SODEVA es una empresa comprometida con el desarrollo urbanístico de la ciudad de San José de Cúcuta.
+              Nuestra labor está amparada bajo el marco jurídico de la ley 2044 de 2020. “ tiene por objeto sanear de manera definitiva la propiedad de los asentamientos humanos ilegales consolidados y precarios en bienes baldíos urbanos, bienes fiscales titulables y los que existan en predios de propiedad legítima a favor de particulares, cuya ocupación o posesión sea mayor de diez (10 años) y cumplan con los requisitos establecidos en la presente ley.
+            </p>
+            <!--
+            <ul>
+              <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              <li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+              <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+            </ul>
+            -->
+            <a href="formulario.html" target="_blank" class="read-more">Iniciar solicitud<i class="icofont-long-arrow-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="horarios" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Horarios notarías</h2>
+          <p>Conozca la ubicacion y horarios de las notarias de san jose de cucuta.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-blue">
+              <h4><a href="">Notaría Primera</a></h4>
+              <p><strong>Dirección:</strong><br> Calle 13 No. 2-69.<br>
+              <strong>Horario de apertura:</strong><br> de Lunes a Viernes de 7:30 am a 12:15<br> pm y de 2:00 pm a 6:15 pm por la tarde.<br> También abre los sábados (cuando está de turno) de 8:30 am a 12:00 pm
+            </p>
+            </div>
+          </div>
+
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-blue">
+              <h4><a href="">Notaría Segunda</a></h4>
+              <p><strong>Dirección:</strong><br> Avenida 2 No. 9-64<br>
+
+<strong>horario de apertura:</strong><br> de Lunes a Viernes de 7:30 am a 12:15 pm<br> y de 2:00 pm a 6:15 pm por la tarde.<br> También abre los sábados (cuando está de turno) de 8:30 am a 12:00 pm</p>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-pink">
+              <h4><a href="">Notaría Tercera</a></h4>
+              <p><strong>Dirección:</strong><br> Calle 14 No. 0-17, por el Barrio la Playa<br>
+                <strong>horario: </strong><br>
+
+El  de apertura es, de Lunes a Viernes de 7:30 am a 12:30 pm<br> y de 2:00 pm a 6:00 pm por la tarde.<br> También abre los sábados (cuando está de turno) de 8:00 am a 12:00 pm</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-yellow">
+              <h4><a href="">Notaría Cuarta</a></h4>
+              <p> <strong>Dirección:</strong><br> Calle 14 No. 3-33, por el Centro<br>
+
+ <strong>Horario apertura</strong><br> de Lunes a Viernes de 8:00 am a 12:30 pm<br> y de 2:00 pm a 6:00 pm por la tarde.<br> También abre los sábados (cuando está de turno) de 8:00 am a 12:00 pm</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-red">
+              <h4><a href="">Notaría quinta</a></h4>
+              <p> <strong>Dirección:</strong><br> Avenida 4 No.13-34 Local 1 por el Barrio Centro<br>
+
+              <strong>Horario de apertura: </strong><br>de Lunes a Viernes de 7:30 am a 12:30 pm<br> y de 2:00 pm a 6:00 pm por la tarde.<br> También abre los sábados (cuando está de turno) de 8:00 am a 12:00 pm</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Pricing Section ======= -->
+
+    <!--
+    <section id="pricing" class="pricing section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>BLOG</h2>
+          <p>Entérese de las ultimas noticias y próximos eventos que estaremos realizando.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="box">
+              <img src="assets/img/blog/blog-1.jpg" class="thumb">
+              <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor</h4>
+              <span class="date">22/08/20 - 12:00am</span>
+              <p class="excerpt">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore.
+              </p>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Leer más</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box">
+              <img src="assets/img/blog/blog-2.jpg" class="thumb">
+              <h4>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+              <span class="date">22/08/20 - 12:00am</span>
+              <p class="excerpt">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore.
+              </p>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Leer más</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="box">
+              <img src="assets/img/blog/blog-3.jpg" class="thumb">
+              <h4>laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</h4>
+              <span class="date">22/08/20 - 12:00am</span>
+              <p class="excerpt">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore.
+              </p>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Leer más</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-1 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
+            <div class="box">
+              <img src="assets/img/blog/blog-4.jpg" class="thumb">
+              <h4>Ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure</h4>
+              <span class="date">22/08/20 - 12:00am</span>
+              <p class="excerpt">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore.
+              </p>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Leer más</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    -->
+
+    <!-- End Pricing Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Preguntas frecuentes</h2>
+          <p>Resuelva sus inquietudes antes de iniciar el proceso de legalización del predio:</p>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up" data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">Compre una parte del lote a la persona que tiene la posesión del terreno, puedo legalizar:<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
+                <p>
+SI, para esto deberá realizar el DESENGLOBE que es la división de uno o más inmuebles, inscripción en la base catastral de los predios con cambios por división de otros predios (Propiedad Horizontal – apartamentos, locales, garajes, depósitos, centros comerciales).
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2" class="collapsed">Tengo la posesión de un porcentaje del Lote puedo hacer legalización sobre esa parte:<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-parent=".faq-list">
+                <p>
+                  No, solo está permitida la legalización en caso de la división del lote, no es posible realizar legalizaciones parciales.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-3" class="collapsed">El municipio está obligado a darme escrituras del lote , ya que tengo mas de 10 años de posesión:<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-parent=".faq-list">
+                <p>
+NO, la a ley 2044 de 2020 se crea con el fin de brindar un marco legal para que la persona en posesión del terreno pueda llegar a un acuerdo económico con el propietario, el municipio solo podrá otorgar descuentos o beneficios sobre los impuestos del predial.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4" class="collapsed">SODEVA realiza todos los trámites para legalizar predio:<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-parent=".faq-list">
+                <p>
+SI, lo que debe tener en cuenta es que los gastos notariales, pagos de impuestos, estampillas y demás deberá realizarlos a las entidades correspondientes llámese notaria, alcaldía o hacienda departamental.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contacto</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="info-box mb-4">
+              <i class="bx bx-map"></i>
+              <h3>Dirección</h3>
+              <p>avenida 4 No. 11 – 17 Of. 207 Edif. Ben Hur. Cúcuta</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-envelope"></i>
+              <h3>Email</h3>
+              <p>infor@sodeva.com.co</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-phone-call"></i>
+              <h3>Teléfono</h3>
+              <p>5717751</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6 ">
+
+            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d988.0219917571123!2d-72.50307157082166!3d7.885865199644925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e66459e768ed56b%3A0xba709f6a84c51122!2sAv.%204%20%231117%2C%20C%C3%BAcuta%2C%20Norte%20de%20Santander!5e0!3m2!1ses!2sco!4v1608391603259!5m2!1ses!2sco" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensaje"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Enviar</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>SODEVA</h3>
+            <p>
+              Dirección : avenida 4 No. 11 – 17 Of. 207 Edif. Ben Hur. Cúcuta<br>
+              <strong>Teléfono:</strong> 5717751<br>
+              <strong>Email:</strong>infor@sodeva.com.co<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Inicio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Nosotros</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Servicios</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Portafolio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Equipo</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Contacto</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Ingresar</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Mas información:</h4>
+            <p>Si desea más información puede suministrarnos su correo electrónico para enviarle la información que necesita en la legalización de su predio.</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="copyright-wrap d-md-flex py-4">
+        <div class="mr-md-auto text-center text-md-left">
+          <div class="copyright">
+            &copy; Copyright <strong><span>SODEVA</span></strong>. Todos los derechos reservados.
+          </div>
+          <div class="credits">
+            Desarrollado por <a href="https://boxmediaweb.com/home">BoxMedia S.A.S</a>
+          </div>
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-youtube"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

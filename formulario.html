@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Soy - asesorias</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+
+    <!-- Template Main CSS File -->
+  <style type="text/css">
+    
+.contact{
+  margin-top: 40px;
+}
+
+.btn-enviar {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-top: 10px;
+  color: #fff;
+  background: #f28d1d;
+  border: 2px solid #f28d1d;
+}
+
+.btn-enviar:hover {
+  background: transparent;
+  color: #f28d1d;
+}
+
+.contact .btn-consultar {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 5px;
+  transition: 0.5s;
+  color: #fff;
+  background: #f28d1d;
+  border: 2px solid #f28d1d;
+  overflow: hidden;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.contact .btn-consultar:hover {
+  background: transparent;
+  color: #f28d1d;
+}
+
+.section-title h1 {
+    font-family: "Poppins";
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  overflow: hidden;
+  background-color: rgba(44, 79, 158, 1);
+  width: 100%;
+  padding: 15px;
+}
+nav img{
+  max-height: 40px;
+}
+
+
+  </style>
+
+</head>
+
+
+<body class="formulario">
+
+    <nav class="col-12">
+      <div><img src="assets/img/logo.png"></div>
+      <div>
+        <a href="index.html" class="btn-enviar">Volver</a>
+      </div>
+    </nav>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="row">
+        <div class="section-title col-lg-8 offset-lg-2">
+          <h1>Por favor ingresar la siguiente información:</h1>
+        </div>
+
+          <div class="col-lg-8 offset-lg-2 mt-5 mt-lg-0">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Número predial" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+
+              <div class="form-row">
+
+                <div class="col-md-9 form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Área M²" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validate"></div>
+                </div>
+
+                <div class="col-md-3 form-group">
+
+                  <a href="http://oficinavirtualcucuta.co/Account/Login?ReturnUrl=%2FPredialPw%2FInfoContribuyente#" target="_blank" type="button" class="form-control btn-consultar" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">Consultar</a>
+                  <div class="validate"></div>
+                </div>
+
+              </div>
+
+
+
+
+
+
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Dirección" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <select class="form-control">
+                    <option hidden selected>Barrio</option>
+                    <option>Chapinero</option>
+                    <option>Comuneros</option>
+                    <option>Motilones</option>
+                    <option>Buenos Aires</option>
+                    <option>La Hermita</option>
+                    <option>Camilo Daza</option>
+                    <option>Aeropuerto</option>
+                    <option>Virgilio Barco</option>
+                    <option>San Gerardo</option>
+                    <option>Cerrito</option>
+                    <option>Toledo Plata</option>
+                    <option>Porvenir</option>
+                    <option>Cumbres del Norte</option>
+                    <option>Alonsito</option>
+                    <option>Simon Bolivar</option>
+                    <option>Otros</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Nombre solicitante" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Número de cédula" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Teléfono" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Correo electrónico" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <!--
+              <div class="mb-3">
+                <div class="loading">Cargando</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Sus datos han sido cargados</div>
+              </div>
+              -->
+              <div class="form-group">
+                <div class="text-center"><button type="submit" class="btn-enviar">Enviar solicitud</button></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+
+</body>
+</html>
